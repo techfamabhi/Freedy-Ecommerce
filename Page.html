@@ -1,0 +1,820 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+ 
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+<link rel="stylesheet" href="./css/category.css">
+<link rel="stylesheet" href="./css/style.css">
+
+</head>
+  <body>
+    
+
+    <nav class="navbar sticky-top navbar-expand-lg navbar-light">
+      <div class="container">
+        <div class="row">
+          <div class="col-8">
+            <a href="index.html"><img src="./images/logo2.png" style="width: 150px; height:30px;" alt=""></a>
+          </div>
+          <div class="col-2">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" 
+              aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="fa fa-angle-down" style="font-size: 30px"></span>
+            </button>
+          </div>
+          <div class="col-2" style="text-align:right">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+              aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          </div>
+        </div>
+      </div>
+      
+      <!-- <div class="collapse navbar-collapse" id="navbarNav"> -->
+      <div class="collapse  navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html#home" >Home</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index.html#categories">Categories</a>
+          </li>
+          <!-- <li class="nav-item">
+            <a class="nav-link" href="index.html#accessories">Accessories</a>
+          </li> -->
+          <li class="nav-item">
+            <a href="cart.html"><i class="fas fa-shopping-cart mx-2" style="font-size: 20px;margin-top:10px"></i></a>
+          </li>
+          <li class="nav-item">
+            <a href="login.html"><i class="fas fa-user mx-2" style="font-size: 20px;margin-top:10px"></i></a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="hr1">
+    </div>
+    <nav class="navbar  navbar-expand-lg navbar-dark bg-dark nav2" style="background-color: #00AB55!important;">
+      <div class="collapse navbar-collapse" id="navbarNavDropdown" style="justify-content: center;">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="Page.html">Groceries <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="page3.html">Dairy</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="page2.html">Oil</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Fruits</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Vegetables</a>
+          </li>
+         
+        </ul>
+      </div>
+    </nav>
+
+
+
+
+
+
+
+
+<div class="container">
+       
+            <div class="col-md-12 mt-5">
+                <div class="row">
+                <div class="col-md-3 first_section">
+                    
+                    <div class="main" style="float: right;">
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="Search for products...">
+                            <div class="input-group-append">
+                            <button class="btn btn-secondary" type="button">
+                            <i class="fa fa-search"></i>
+                            </button>
+                            </div>
+                            </div>
+                    <div class="card mt-4" style="width: 18rem;">
+                        <div class="card-body">
+                            <h5 class="card-title"><span class="card-title-line"></span> Filter By Category</h5>
+                            <hr>                         
+                            
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" id="autoSizingCheck" style="width: 15px;height: 15px ;outline: none;">
+                                    <label class="form-check-label card-checkbox-text" for="autoSizingCheck">
+                                      Groceries
+                                    </label>
+                                  </div>
+                                  <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" id="autoSizingCheck" style="width: 15px;height: 15px ;outline: none;">
+                                    <label class="form-check-label card-checkbox-text" for="autoSizingCheck">
+                                      Fruits & Vegetables
+                                    </label>
+                                  </div>
+                                  <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" id="autoSizingCheck" style="width: 15px;height: 15px ;outline: none;">
+                                    <label class="form-check-label card-checkbox-text" for="autoSizingCheck">
+                                     Dairy
+                                    </label>
+                                  </div>
+                                  <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" id="autoSizingCheck" style="width: 15px;height: 15px ;outline: none;">
+                                    <label class="form-check-label card-checkbox-text" for="autoSizingCheck">
+                                        Meats - Poltry & Sea Food 
+                                    </label>
+                                  </div>
+                                  <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" id="autoSizingCheck" style="width: 15px;height: 15px ;outline: none;">
+                                    <label class="form-check-label card-checkbox-text" for="autoSizingCheck">
+                                      Beverages & Bars
+                                    </label>
+                                  </div>  
+                                  <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" id="autoSizingCheck" style="width: 15px;height: 15px ;outline: none;">
+                                    <label class="form-check-label card-checkbox-text" for="autoSizingCheck">
+                                      Bakery Products
+                                    </label>
+                                  </div>
+                                  <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" id="autoSizingCheck" style="width: 15px;height: 15px ;outline: none;">
+                                    <label class="form-check-label card-checkbox-text" for="autoSizingCheck">
+                                      Cleaning Kitchen Consumables
+                                    </label>
+                                  </div>
+                                  <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" id="autoSizingCheck" style="width: 15px;height: 15px ;outline: none;">
+                                    <label class="form-check-label card-checkbox-text" for="autoSizingCheck">
+                                     Ready To Cooked & Sauces
+                                    </label>
+                                  </div>                       
+                                  <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" id="autoSizingCheck" style="width: 15px;height: 15px ;outline: none;">
+                                    <label class="form-check-label card-checkbox-text" for="autoSizingCheck">
+                                      Restaturant Equipments
+                                    </label>
+                                  </div>                       
+                          
+                                  
+                        </div>
+                    </div>
+                  
+                    <div class="accordion mt-5" id="accordionExample" style="width: 18rem;">
+                      <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingOne">
+                          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            GROCERIES
+                          </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                          <div class="accordion-body">
+                          
+                            <ul class=" card-checkbox-text"> 
+                              <li><a href="Page.html">GROUNDED SPICES & MASALA</a></li>
+                              <li><a href="page2.html">OIL & FATS</a></li>
+                              <li><a href="">FLOURS</a></li>
+                              <li><a href="">PULSES</a></li>
+                              <li><a href="">RICE PRODUCT</a></li>
+                              <li><a href="">WHOLE SPICES</a></li>
+                              <li><a href="">SAUCES & SPICES</a></li>
+                              <li><a href="">DRY FRUITS</a></li>
+                              <li><a href="">SALTS & SUGARS</a></li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingThree">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            DAIRY PRODUCTS
+                          </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                          <div class="accordion-body">
+                           <ul class=" card-checkbox-text">
+                            <li><a href="page5.html">BUTTER </a></li>
+                            <li><a href="page3.html">MILK</a></li>
+                            <li><a href="page4.html">CURD</a></li>
+                            <li><a href="">PANEER</a></li>
+                            <li><a href="">CURD</a></li>
+                            <li><a href="">CHEESE</a></li>
+                            <li><a href="">CREAM</a></li>
+                            <li><a href="">GHEE</a></li>
+                           </ul>
+                          </div>
+                        </div>
+                      </div>
+
+                      
+                      <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingTwo">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                           FRUITS & VEGETABLES
+                          </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                          <div class="accordion-body">
+                          
+                            <ul class=" card-checkbox-text">
+                              <li><a href="">FRUITS & VEGETABLES</a></li>
+                              <li><a href="">INDIAN VEGETABLES</a></li>
+                              <li><a href="">LEAFT VEGETABLES</a></li>
+                              <li><a href="">POTATO /ONION</a></li>
+                              <li><a href="">EXOTIC VEGETABLES</a></li>
+                              <li><a href="">CUT VEGETABLES</a></li>
+                            
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                     
+                    </div>
+               
+
+                  
+                 
+                </div>
+                </div>
+                <div class="col-9 second_section">
+                    
+
+                      
+                     
+                  <!-- <div class="row">
+                   <div class="col-md-6">
+                    <p class="filter_para1">Showing 1–30 dssof 146 results</p>
+                   </div>
+                   <div class="col-md-6">
+                      
+<form id="app-cover" class="">
+    <div id="select-box">
+      <input type="checkbox" id="optionnns-view-button">
+      <div id="select-button" class="brd">
+        <div id="selected-value">
+          <span>Sort By : Featured</span>
+          <option selected></option>       
+           </div>
+        
+        <div id="chevrons">
+            <i class='far fa-arrow-alt-circle-up'></i>
+        </div>
+      </div>
+      <div id="optionnns">
+        
+        
+        
+        <div class="optionnn">
+            <input class="s-c top" type="radio" name="platform" value="behance">
+            <span class="label">Sort By Popularity</span>
+          </div>
+        <div class="optionnn">
+            <input class="s-c top" type="radio" name="platform" value="behance">
+            <span class="label">Sort By Latest</span>
+          </div>
+        
+        <div class="optionnn">
+          <input class="s-c top" type="radio" name="platform" value="behance">
+          <span class="label">Sort By Price:Low To High</span>
+        </div>
+        <div class="optionnn">
+          <input class="s-c top" type="radio" name="platform" value="hackerrank">            
+            <span class="label">Sort By Price:High To Low</span>
+           
+        </div>
+        
+        
+        <div id="optionnn-bg"></div>
+      </div>
+    </div>  
+  </form>
+   
+                   </div>
+                  </div> -->
+                   
+                   
+                    <div class="row">
+                     
+                      <div class="category_title">
+                        <p><b>GROCERIES</b></p>                        
+                    </div>
+
+                    
+                    <div class="row">
+                   <div class="col-md-5">
+                    <p class="filter_para1">Showing 1–30 of 146 results</p>
+                   </div>
+                   <div class="col-md-3"></div>
+                   <div class="col-md-4">
+                      
+              <form id="app-cover" class="" style="float: right;">
+                  <div id="select-box">
+                    <input type="checkbox" id="optionnns-view-button">
+                    <div id="select-button" class="brd">
+                      <div id="selected-value">
+                        <span>Sort By : Featured</span>
+                        <option selected></option>       
+                        </div>
+                      
+                      <!-- <div id="chevrons">
+                          <i class='far fa-arrow-alt-circle-up'></i>
+                      </div> -->
+                    </div>
+                    <div id="optionnns">
+                      
+                      
+                      
+                      <div class="optionnn">
+                          <input class="s-c top" type="radio" name="platform" value="behance">
+                          <span class="label">Sort By Popularity</span>
+                        </div>
+                      <div class="optionnn">
+                          <input class="s-c top" type="radio" name="platform" value="behance">
+                          <span class="label">Sort By Latest</span>
+                        </div>
+                      
+                      <div class="optionnn">
+                        <input class="s-c top" type="radio" name="platform" value="behance">
+                        <span class="label">Sort By Price:Low To High</span>
+                      </div>
+                      <div class="optionnn">
+                        <input class="s-c top" type="radio" name="platform" value="hackerrank">            
+                          <span class="label">Sort By Price:High To Low</span>
+                        
+                      </div>
+                      
+                      
+                      <div id="optionnn-bg"></div>
+                    </div>
+                  </div>  
+                </form>
+   
+                   </div>
+                  </div>
+                  
+
+        
+
+                        
+                    <div class="col-md-4 col-sm-6 my-3">
+            <div class="product-grid">
+                <div class="product-image">
+                    <a href="#" class="image">
+                        <img class="pic-1" src="./images/Groceries/VKL-Black-Paper-Powder-1-Kg-291x291.jpg">
+                        <img class="pic-2" src="./images/Groceries/VKL-Black-Paper-Powder-1-Kg-291x291 (1).jpg">
+                    </a>
+                    <ul class="product-links">
+                        <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
+                        <li><a href="#"><i class="fa fa-heart"></i></a></li>
+                        <li><a href="#"><i class="fa fa-eye"></i></a></li>
+                      
+                    </ul>
+                </div>
+                <div class="product-content">
+                    <ul class="rating">
+                        <li class="fa fa-star"></li>
+                        <li class="fa fa-star"></li>
+                        <li class="fa fa-star"></li>
+                        <li class="fa fa-star"></li>
+                        <li class="fa fa-star"></li>
+                    </ul>
+                    <h3 class="title"><a href="#">VKL-Black-Paper-Powder-1-Kg</a></h3>
+                    <div class="price">200</div>
+                </div>
+            </div>
+                     </div>
+                    <div class="col-md-4 col-sm-6 my-3">
+                        <div class="product-grid">
+                            <div class="product-image">
+                                <a href="#" class="image">
+                                    <img class="pic-1" src="./images/Groceries/Tit-Bit-Biryani-Masala-1-kg-291x291.jpg">
+                                    <img class="pic-2" src="./images/Groceries/Tit-Bit-Sandwich-Masala-1-kg-291x291.jpg">
+                                </a>
+                                <ul class="product-links">
+                                    <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-heart"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-random"></i></a></li>
+                                  
+                                </ul>
+                            </div>
+                            <div class="product-content">
+                                <ul class="rating">
+                                    <li class="fa fa-star"></li>
+                                    <li class="fa fa-star"></li>
+                                    <li class="fa fa-star"></li>
+                                    <li class="fa fa-star"></li>
+                                    <li class="fa fa-star"></li>
+                                </ul>
+                                <h3 class="title"><a href="#">Tit-Bit-Biryani-Masala-1-kg</a></h3>
+                                <div class="price">150</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 col-sm-6 my-3">
+                        <div class="product-grid">
+                            <div class="product-image">
+                                <a href="#" class="image">
+                                    <img class="pic-1" src="./images/Groceries/Tit-Bit-Sandwich-Masala-1-kg-291x291.jpg">
+                                    <img class="pic-2" src="./images/Groceries/Tit-Bit-Sambhar-Masala-1-kg-291x291.jpg">
+                                </a>
+                                <ul class="product-links">
+                                    <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-heart"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-random"></i></a></li>
+                                  
+                                </ul>
+                            </div>
+                            <div class="product-content">
+                                <ul class="rating">
+                                    <li class="fa fa-star"></li>
+                                    <li class="fa fa-star"></li>
+                                    <li class="fa fa-star"></li>
+                                    <li class="fa fa-star"></li>
+                                    <li class="fa fa-star"></li>
+                                </ul>
+                                <h3 class="title"><a href="#">Tit-Bit-Sandwich-Masala-1-kg-291x291.jpg</a></h3>
+                                <div class="price">250</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 my-3">
+                        <div class="product-grid">
+                            <div class="product-image">
+                                <a href="#" class="image">
+                                    <img class="pic-1" src="./images/Groceries/Tit-Bit-Pav-Bhaji-Masala-1-kg-291x291.jpg">
+                                    <img class="pic-2" src="./images/Groceries/Tit-Bit-Pav-Bhaji-Masala-1-kg-291x291.jpg">
+                                </a>
+                                <ul class="product-links">
+                                    <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-heart"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-random"></i></a></li>
+                                  
+                                </ul>
+                            </div>
+                            <div class="product-content">
+                                <ul class="rating">
+                                    <li class="fa fa-star"></li>
+                                    <li class="fa fa-star"></li>
+                                    <li class="fa fa-star"></li>
+                                    <li class="fa fa-star"></li>
+                                    <li class="fa fa-star"></li>
+                                </ul>
+                                <h3 class="title"><a href="#">Tit-Bit-Pav-Bhaji-Masala-1-kg</a></h3>
+                                <div class="price">300</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 my-3">
+                        <div class="product-grid">
+                            <div class="product-image">
+                                <a href="#" class="image">
+                                    <img class="pic-1" src="./images/Groceries/Tit-Bit-Pav-Bhaji-Masala-1-kg-291x291.jpg">
+                                    <img class="pic-2" src="./images/Groceries/Tit-Bit-Pav-Bhaji-Masala-1-kg-291x291.jpg">
+                                </a>
+                                <ul class="product-links">
+                                    <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-heart"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-random"></i></a></li>
+                                  
+                                </ul>
+                            </div>
+                            <div class="product-content">
+                                <ul class="rating">
+                                    <li class="fa fa-star"></li>
+                                    <li class="fa fa-star"></li>
+                                    <li class="fa fa-star"></li>
+                                    <li class="fa fa-star"></li>
+                                    <li class="fa fa-star"></li>
+                                </ul>
+                                <h3 class="title"><a href="#">Tit-Bit-Pav-Bhaji-Masala-1-kg</a></h3>
+                                <div class="price">350</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 my-3">
+                        <div class="product-grid">
+                            <div class="product-image">
+                                <a href="#" class="image">
+                                    <img class="pic-1" src="./images/Groceries/Tit-Bit-Chicken-Masala-1-kg-291x291.jpg">
+                                    <img class="pic-2" src="./images/Groceries/Tit-Bit-Chicken-Masala-1-kg-291x291.jpg">
+                                </a>
+                                <ul class="product-links">
+                                    <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-heart"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-random"></i></a></li>
+                                  
+                                </ul>
+                            </div>
+                            <div class="product-content">
+                                <ul class="rating">
+                                    <li class="fa fa-star"></li>
+                                    <li class="fa fa-star"></li>
+                                    <li class="fa fa-star"></li>
+                                    <li class="fa fa-star"></li>
+                                    <li class="fa fa-star"></li>
+                                </ul>
+                                <h3 class="title"><a href="#">Tit-Bit-Chicken-Masala-1-kg</a></h3>
+                                <div class="price">120</div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+
+
+
+
+
+                    <div class="col-md-4 col-sm-6 my-3">
+                      <div class="product-grid">
+                          <div class="product-image">
+                              <a href="#" class="image">
+                                  <img class="pic-1" src="./images/Groceries/Tit-Bit-Kanda-Lasun-Masala-1-kg-291x291.jpg">
+                                  <img class="pic-2" src="./images/Groceries/Tit-Bit-Kanda-Lasun-Masala-1-kg-291x291.jpg">
+                              </a>
+                              <ul class="product-links">
+                                  <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
+                                  <li><a href="#"><i class="fa fa-heart"></i></a></li>
+                                  <li><a href="#"><i class="fa fa-random"></i></a></li>
+                                
+                              </ul>
+                          </div>
+                          <div class="product-content">
+                              <ul class="rating">
+                                  <li class="fa fa-star"></li>
+                                  <li class="fa fa-star"></li>
+                                  <li class="fa fa-star"></li>
+                                  <li class="fa fa-star"></li>
+                                  <li class="fa fa-star"></li>
+                              </ul>
+                              <h3 class="title"><a href="#">Tit-Bit-Kanda-Lasun-Masala-1-kg</a></h3>
+                              <div class="price">120</div>
+                          </div>
+                      </div>
+                  </div>
+
+
+
+                  <div class="col-md-4 col-sm-6 my-3">
+                    <div class="product-grid">
+                        <div class="product-image">
+                            <a href="#" class="image">
+                                <img class="pic-1" src="./images/Groceries/Tit-Bit-Jaljeera-Masala-1-kg-291x291.jpg">
+                                <img class="pic-2" src="./images/Groceries/Tit-Bit-Jaljeera-Masala-1-kg-291x291.jpg">
+                            </a>
+                            <ul class="product-links">
+                                <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
+                                <li><a href="#"><i class="fa fa-heart"></i></a></li>
+                                <li><a href="#"><i class="fa fa-random"></i></a></li>
+                              
+                            </ul>
+                        </div>
+                        <div class="product-content">
+                            <ul class="rating">
+                                <li class="fa fa-star"></li>
+                                <li class="fa fa-star"></li>
+                                <li class="fa fa-star"></li>
+                                <li class="fa fa-star"></li>
+                                <li class="fa fa-star"></li>
+                            </ul>
+                            <h3 class="title"><a href="#">Tit-Bit-Jaljeera-Masala-1-kg</a></h3>
+                            <div class="price">120</div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="col-md-4 col-sm-6 my-3">
+                  <div class="product-grid">
+                      <div class="product-image">
+                          <a href="#" class="image">
+                              <img class="pic-1" src="./images/Groceries/Tit-Bit-Dabeli-Masala-1-kg-291x291.jpg">
+                              <img class="pic-2" src="./images/Groceries/Tit-Bit-Dabeli-Masala-1-kg-291x291.jpg">
+                          </a>
+                          <ul class="product-links">
+                              <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
+                              <li><a href="#"><i class="fa fa-heart"></i></a></li>
+                              <li><a href="#"><i class="fa fa-random"></i></a></li>
+                            
+                          </ul>
+                      </div>
+                      <div class="product-content">
+                          <ul class="rating">
+                              <li class="fa fa-star"></li>
+                              <li class="fa fa-star"></li>
+                              <li class="fa fa-star"></li>
+                              <li class="fa fa-star"></li>
+                              <li class="fa fa-star"></li>
+                          </ul>
+                          <h3 class="title"><a href="#">Tit-Bit-Dabeli-Masala-1-kg</a></h3>
+                          <div class="price">120</div>
+                      </div>
+                  </div>
+              </div>
+
+
+
+
+
+
+
+
+
+
+
+
+              <div class="col-md-4 col-sm-6 my-3">
+                <div class="product-grid">
+                    <div class="product-image">
+                        <a href="#" class="image">
+                            <img class="pic-1" src="./images/Groceries/Tit-Bit-Chicken-Masala-1-kg-291x291.jpg">
+                            <img class="pic-2" src="./images/Groceries/Tit-Bit-Chicken-Masala-1-kg-291x291.jpg">
+                        </a>
+                        <ul class="product-links">
+                            <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
+                            <li><a href="#"><i class="fa fa-heart"></i></a></li>
+                            <li><a href="#"><i class="fa fa-random"></i></a></li>
+                          
+                        </ul>
+                    </div>
+                    <div class="product-content">
+                        <ul class="rating">
+                            <li class="fa fa-star"></li>
+                            <li class="fa fa-star"></li>
+                            <li class="fa fa-star"></li>
+                            <li class="fa fa-star"></li>
+                            <li class="fa fa-star"></li>
+                        </ul>
+                        <h3 class="title"><a href="#">Tit-Bit-Chicken-Masala-1-kg</a></h3>
+                        <div class="price">120</div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+            <div class="col-md-4 col-sm-6 my-3">
+              <div class="product-grid">
+                  <div class="product-image">
+                      <a href="#" class="image">
+                          <img class="pic-1" src="./images/Groceries/Tit-Bit-Chhole-Masala-1-kg-291x291.png">
+                          <img class="pic-2" src="./images/Groceries/Tit-Bit-Chhole-Masala-1-kg-291x291.png">
+                      </a>
+                      <ul class="product-links">
+                          <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
+                          <li><a href="#"><i class="fa fa-heart"></i></a></li>
+                          <li><a href="#"><i class="fa fa-random"></i></a></li>
+                        
+                      </ul>
+                  </div>
+                  <div class="product-content">
+                      <ul class="rating">
+                          <li class="fa fa-star"></li>
+                          <li class="fa fa-star"></li>
+                          <li class="fa fa-star"></li>
+                          <li class="fa fa-star"></li>
+                          <li class="fa fa-star"></li>
+                      </ul>
+                      <h3 class="title"><a href="#">Tit-Bit-Chhole-Masala-1-kg</a></h3>
+                      <div class="price">120</div>
+                  </div>
+              </div>
+          </div>
+
+
+          <div class="col-md-4 col-sm-6 my-3">
+            <div class="product-grid">
+                <div class="product-image">
+                    <a href="#" class="image">
+                        <img class="pic-1" src="./images/Groceries/Tit-Bit-Dabeli-Masala-1-kg-291x291.jpg">
+                        <img class="pic-2" src="./images/Groceries/Tit-Bit-Dabeli-Masala-1-kg-291x291.jpg">
+                    </a>
+                    <ul class="product-links">
+                        <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
+                        <li><a href="#"><i class="fa fa-heart"></i></a></li>
+                        <li><a href="#"><i class="fa fa-random"></i></a></li>
+                      
+                    </ul>
+                </div>
+                <div class="product-content">
+                    <ul class="rating">
+                        <li class="fa fa-star"></li>
+                        <li class="fa fa-star"></li>
+                        <li class="fa fa-star"></li>
+                        <li class="fa fa-star"></li>
+                        <li class="fa fa-star"></li>
+                    </ul>
+                    <h3 class="title"><a href="#">Tit-Bit-Dabeli-Masala-1-kg</a></h3>
+                    <div class="price">120</div>
+                </div>
+            </div>
+        </div>
+
+                </div>
+            </div>
+        </div>
+        </div>
+      </div>
+
+
+
+      <div class="footer mt-5">
+        <div class="container">
+        <div class="row">
+          <div class="col-md-4 mt-5">
+            <ul>
+              <li><a href="index.html"><img src="./images/logo2.png" style="width: 150px; height:30px;" alt=""></a></li>
+              <li>Address: 60-49 Road 11378 New York</li>
+              <li>Phone: +65 11.188.888</li>
+              <li>Email: hello@colorlib.com</li>
+            </ul>
+           
+          </div>
+          <div class="col-md-2 mt-5">
+            <ul>
+              <li><b> Useful Links</b></li>
+              <li>Home</li>
+              <li>categories</li>
+              <li>Accessories</li>
+              <li>Shop</li>
+            </ul>
+           
+          </div>
+          <div class="col-md-2 mt-5">
+            <ul>
+              <li><b>Who we are</b></li>
+              <li>Our Services</li>
+              <li>Project</li>
+              <li>Contact</li>
+              <li>Innovation</li>
+            </ul>
+           
+          </div>
+          <div class="col-md-4 mt-5">
+            <ul>
+              <li><b>Join Our Newsletter Now</b></li>
+              <li>Get E-mail updates about our latest shop and special offers.</li>
+              <li>
+                <div class="input-group mb-3">
+                  <input type="text" class="form-control" placeholder="Enter Your mail">
+                  <div class="input-group-append">
+                    <button class="btn btn-light" id="footerbtn" ><b>SUBSCRIBE</b></button>
+                  </div>
+                </div>
+              </li>
+            </ul>
+           
+          </div>
+        </div>
+        </div>
+      </div>
+      <nav class="navbar navbar-light justify-content-center footer2" style="background-color: #000;">
+        <a class="navbar-brand" href="#">
+          <p style="color: white;"> FREEDY <i class="fa fa-copyright" aria-hidden="true"></i> 2022 | All rights are reserved
+          </p>
+        </a>
+      </nav>
+
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"></script>
+ 
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"></script>
+
+
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
